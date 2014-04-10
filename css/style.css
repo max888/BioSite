@@ -1,0 +1,52 @@
+#container {
+  width: 100%;
+}
+
+.constraint {
+  width: 1190px;
+  margin: 0 auto;
+}
+
+nav {
+  background-color: black;
+  padding: 1px;
+}
+
+nav ul {
+  text-align: center;
+}
+
+nav li {
+  list-style: none;
+  display: inline-block;
+  color: yellow;
+  padding: 0 10px 0 10px;
+}
+
+nav li a:hover {
+  background-color: yellow;
+  color: black;
+}
+
+a:visited {
+  color: yellow;
+}
+
+a:link {text-decoration:none;}
+a:visited {text-decoration:none;}
+
+h1 {
+  font-size: 3em
+}
+
+h2 {
+  font-size: 2em
+}
+
+#about {
+  background-color: #f6f6f6
+}
+
+#contact {
+  background-color: #f6f6f6
+}

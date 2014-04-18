@@ -13,6 +13,7 @@ nav {
   width: 100%;
   position: fixed;
   top: 0;
+  opacity: 0.9;
 }
 
 nav ul {
@@ -24,6 +25,7 @@ nav li {
   display: inline-block;
   color: yellow;
   padding: 0 10px 0 10px;
+  font-family: 'Titillium Web', sans-serif;
 }
 
 nav li a:hover {
@@ -61,6 +63,7 @@ h2 {
   font-size: 30px;
   display: inline-block;
   text-align: center;
+  font-family: 'IM Fell DW Pica', serif;
 }
 
 #home {
@@ -68,26 +71,60 @@ h2 {
   margin-bottom: 150px;
 }
 
+#home h1 {
+  font-family: 'Raleway', sans-serif;
+}
+
 #about {
-  padding-top: 5em;
+  padding-top: 3em;
   padding-bottom: 5em;
   background-color: #f6f6f6
 }
 
+#about_me {
+  display: inline-block;
+  width: 50%;
+  float: left;
+  line-height: 1.6em
+}
+
+#skills {
+  display: inline-block;
+  margin-left: 100px;
+}
+
+#skills h3 {
+  text-align: center;
+}
+
 #portfolio {
-  padding-top: 5em;
+  padding-top: 3em;
   padding-bottom: 5em;
+}
+
+#portfolio a {
+  color: grey;
 }
 
 #contact {
   padding-top: 5em;
   padding-bottom: 5em;
-  background-color: #f6f6f6
+  background-color: #f6f6f6;
+  text-align: center;
 }
 
+#contact a {
+  color: grey;
+}
 
+footer p {
+  text-align: center;
+  font-style: italic;
+}
 
-
+footer a:visited {
+  color: grey;
+}
 
 
 

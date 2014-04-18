@@ -6,6 +6,9 @@
   width: 80%;
   margin: 0 auto;
 }
+p {
+  font-size: 1em;
+}
 
 nav {
   background-color: black;

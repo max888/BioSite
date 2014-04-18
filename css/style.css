@@ -22,9 +22,12 @@ nav ul {
 nav li {
   list-style: none;
   display: inline-block;
-  color: yellow;
   padding: 0 10px 0 10px;
   font-family: 'Titillium Web', sans-serif;
+}
+
+nav a {
+color: white;
 }
 
 nav li a:hover {

@@ -1,0 +1,140 @@
+#container {
+  width: 100%;
+}
+
+.constraint {
+  width: 1190px;
+  margin: 0 auto;
+}
+
+nav {
+  background-color: black;
+  padding: 1px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  opacity: 0.9;
+}
+
+nav ul {
+  text-align: center;
+}
+
+nav li {
+  list-style: none;
+  display: inline-block;
+  color: yellow;
+  padding: 0 10px 0 10px;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+nav li a:hover {
+  background-color: yellow;
+  color: black;
+}
+
+a:visited {
+  color: yellow;
+}
+
+a:link {text-decoration:none;}
+a:visited {text-decoration:none;}
+
+h1 {
+  font-size: 3em
+}
+
+h2 {
+  font-size: 4em;
+  text-align: center;
+}
+
+#big_circle {
+  background-color: yellow;
+  width: 380px;
+  height: 380px;
+  border-radius: 100%;
+  margin: 0 auto;
+  margin-top: 80px;
+}
+
+#big_circle p {
+  padding: 100px;
+  font-size: 30px;
+  display: inline-block;
+  text-align: center;
+  font-family: 'IM Fell DW Pica', serif;
+}
+
+#home {
+  margin-top: 5em;
+  margin-bottom: 150px;
+}
+
+#home h1 {
+  font-family: 'Raleway', sans-serif;
+}
+
+#about {
+  padding-top: 3em;
+  padding-bottom: 5em;
+  background-color: #f6f6f6
+}
+
+#about_me {
+  display: inline-block;
+  width: 50%;
+  float: left;
+  line-height: 1.6em
+}
+
+#skills {
+  display: inline-block;
+  margin-left: 100px;
+}
+
+#skills h3 {
+  text-align: center;
+}
+
+#portfolio {
+  padding-top: 3em;
+  padding-bottom: 5em;
+}
+
+#portfolio a {
+  color: grey;
+}
+
+#contact {
+  padding-top: 5em;
+  padding-bottom: 5em;
+  background-color: #f6f6f6;
+  text-align: center;
+}
+
+#contact a {
+  color: grey;
+}
+
+footer p {
+  text-align: center;
+  font-style: italic;
+}
+
+footer a:visited {
+  color: grey;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

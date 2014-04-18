@@ -3,7 +3,7 @@
 }
 
 .constraint {
-  width: 1190px;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -81,8 +81,8 @@ h2 {
   padding-top: 3em;
   padding-bottom: 5em;
   background-color: #FDFDFD;
-/*  border-top: 2px groove lightgrey;
-*/}
+  border-top: 2px groove lightgrey;
+}
 
 #about_me {
   display: inline-block;
@@ -103,7 +103,7 @@ h2 {
 #portfolio {
   padding-top: 3em;
   padding-bottom: 5em;
-  /*border-top: 2px groove lightgrey;*/
+  border-top: 2px groove lightgrey;
 }
 
 #portfolio a {
@@ -115,9 +115,9 @@ h2 {
   padding-bottom: 5em;
   background-color: #f6f6f6;
   text-align: center;
-/*  border-top: 2px groove lightgrey;
+  border-top: 2px groove lightgrey;
   border-bottom: 2px groove lightgrey;
-*/}
+}
 
 #contact a {
   color: grey;

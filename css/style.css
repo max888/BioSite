@@ -7,10 +7,6 @@
   margin: 0 auto;
 }
 
-p {
-  font-size: 16px;
-}
-
 nav {
   background-color: black;
   padding: 1px;
@@ -98,6 +94,7 @@ h2 {
 #skills {
   display: inline-block;
   margin-left: 100px;
+  width: 40%;
 }
 
 #skills h3 {
